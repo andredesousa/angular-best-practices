@@ -49,7 +49,7 @@ These tips are based on Angular documentation, books, articles and professional 
 42. [Separation of concerns](#separation-of-concerns)
 43. [Use aliases for imports](#use-aliases-for-imports)
 44. [Develop in a modular way](#develop-in-a-modular-way)
-45. [Components should only deal with display logic](#components-should-only-deal-with-display-logic])
+45. [Components should only deal with display logic](#components-should-only-deal-with-display-logic)
 46. [Small reusable components](#small-reusable-components)
 47. [Smart and dummy components](#smart-and-dummy-components)
 48. [Base component classes](#base-component-classes)
