@@ -30,7 +30,7 @@ These tips are based on Angular documentation, books, articles and professional 
 23. [Make use of lint rules](#make-use-of-lint-rules)
 24. [LIFT Principle](#lift-principle)
 25. [Do not Repeat Yourself](#do-not-repeat-yourself)
-26. [Avoid long functions/methods](#avoid-long-functions-methods)
+26. [Avoid long functions](#avoid-long-functions)
 27. [Avoid change the DOM directly](#avoid-change-the-dom-directly)
 28. [Avoid computing values in the template](#avoid-computing-values-in-the-template)
 29. [Avoid logic in templates](#avoid-logic-in-templates)
@@ -319,7 +319,7 @@ It takes longer to make changes to the logic and testing it is a lengthy process
 In those cases, extract the repeating code and use it instead.
 This means only one place to change and one thing to test. Having less duplicate code shipped to users means the application will be faster.
 
-## Avoid long functions/methods
+## Avoid long functions
 
 Long functions generally indicate that they are doing too many things.
 Small functions are better to read and faster to understand the purpose.
