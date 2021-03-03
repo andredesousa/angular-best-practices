@@ -8,7 +8,7 @@ These tips are based on Angular documentation, books, articles and professional 
 1. [Follow conventions](#follow-conventions)
 2. [Use Angular CLI](#use-angular-cli)
 3. [Isolate API hacks](#isolate-api-hacks)
-4. [Avoid Promises](#avoid-promises)
+4. [Prefer Observables over Promises](#prefer-observables-over-promises)
 5. [Subscribe in template](#subscribe-in-template)
 6. [Avoid memory leaks](#avoid-memory-leaks)
 7. [Avoid nested subscriptions](#avoid-nested-subscriptions)
@@ -86,7 +86,7 @@ Sometimes, we need to add some logic in the code to make up for bugs in the APIs
 Instead of having the hacks in components where they are needed, it is better to isolate them in one place like in a function or a service and use them.
 When fixing the bugs in the APIs, it is easier to look for them in one file rather than looking for the hacks that could be spread across the codebase.
 
-## Avoid Promises
+## Prefer Observables over Promises
 
 [Observables](https://rxjs-dev.firebaseapp.com/guide/observable) partly overlaps the standard JavaScript [Promise](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise) functionality.
 Both are meant to handle asynchronous code.
