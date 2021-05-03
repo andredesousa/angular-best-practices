@@ -614,20 +614,18 @@ The Reactive approach removes validation logic from the template, keeping the te
 Reactive forms use an explicit and immutable approach to managing the state of a form at a given point in time.
 Each change to the form state returns a new state, which maintains the integrity of the model between changes.
 
----
-
 ## Bibliography
 
 - [Angular coding style guide](https://angular.io/guide/styleguide)
-- [Best practices for a clean and performant Angular application](https://medium.com/free-code-camp/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f)
-- [5 Things that Improve your Angular Codebase Right Now](https://malcoded.com/posts/improve-your-angular-codebase/)
-- [6 most common mistakes of Angular devs revealed on code reviews](https://alex-klaus.com/angular-code-review/)
-- [Best Practices in Angular](https://itnext.io/best-practices-in-angular-a8926fa02ae2)
-- [Clean Code Checklist in Angular](https://itnext.io/clean-code-checklist-in-angular-️-10d4db877f74)
-- [RxJS in Angular: When To Subscribe?](https://indepth.dev/posts/1279/rxjs-in-angular-when-to-subscribe-rarely)
+- [Angular Performance Advice](https://medium.com/slackernoon/angular-performance-enhancement-413c6f950ebb)
+- [Angular Bad Practices](https://medium.com/angular-in-depth/angular-bad-practices-revisited-4f607fcb75da)
 - [Angular Reactive Templates with ngIf and the Async Pipe](https://blog.angular-university.io/angular-reactive-templates/)
 - [Angular Smart Components vs Presentational Components](https://blog.angular-university.io/angular-2-smart-components-vs-presentation-components-whats-the-difference-when-to-use-each-and-why/)
 - [A Comprehensive Guide to Angular onPush Change Detection Strategy](https://netbasal.com/a-comprehensive-guide-to-angular-onpush-change-detection-strategy-5bac493074a4)
-- [Angular Performance Advice](https://medium.com/slackernoon/angular-performance-enhancement-413c6f950ebb)
-- [Angular Bad Practices](https://medium.com/angular-in-depth/angular-bad-practices-revisited-4f607fcb75da)
+- [Best practices for a clean and performant Angular application](https://medium.com/free-code-camp/best-practices-for-a-clean-and-performant-angular-application-288e7b39eb6f)
+- [Best Practices in Angular](https://itnext.io/best-practices-in-angular-a8926fa02ae2)
+- [Clean Code Checklist in Angular](https://itnext.io/clean-code-checklist-in-angular-️-10d4db877f74)
 - [Don't follow RxJS Best Practices](https://dev.to/nikpoltoratsky/don-t-follow-rxjs-best-practices-4893)
+- [RxJS in Angular: When To Subscribe?](https://indepth.dev/posts/1279/rxjs-in-angular-when-to-subscribe-rarely)
+- [5 Things that Improve your Angular Codebase Right Now](https://malcoded.com/posts/improve-your-angular-codebase/)
+- [6 most common mistakes of Angular devs revealed on code reviews](https://alex-klaus.com/angular-code-review/)
